@@ -29,9 +29,10 @@ def savePass(passkey):
     except pickle.PickleError as peer:
         print('pickle error'+str(peer))
 
-savePass(genPass(6))
 
-"""
-return save passwords
-"""
+    print("your new password is:")
+    print(password_file)
+
+
+savePass(genPass(6))
 
